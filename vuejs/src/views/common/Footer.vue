@@ -4,12 +4,7 @@
       <div v-if="disclaimer" class="footpad footer-disclaimer">
         <span class="disclaimer-head">Disclaimer:</span> &nbsp; Our resources are only for learning and communication, not for any commercial use. Please abide by the laws and regulations of your country, and any illegal behavior shall be borne by the user himself.
       </div>
-      <div v-if="footerLogo" class="footpad footimage">
-        <img width="150" height="75" class="gloryimage" :src="footerLogoLink">
-      </div>
-      <div class="footpad footicons">
-        Github - <a class="icon-tag" href="https://github.com/tks18/gindex-v4">Shan.tk</a> | Support Me!
-      </div>
+      
       <div v-if="copyright" class="footpad footer-copyright">
         Copyright&nbsp;<i class="fas fa-copyright"></i> {{ Date.now() | moment("YYYY") }} | &nbsp;{{ sitename }}
       </div>
